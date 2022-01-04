@@ -1,6 +1,8 @@
 #lang info
 (define collection "jot")
-(define deps '("base" "date" "command-line"))
+(define deps '("base"))
+(define racket-launcher-libraries '("main.rkt"))
+(define racket-launcher-names '("jot"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/jot.scrbl" ())))
 (define pkg-desc "A minimal notetaking application.")
